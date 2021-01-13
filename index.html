@@ -1,9 +1,92 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>A fantastical adventure</title>
+  <script src="js/script.js"></script>
+  <title>Give Personal Information</title>
 </head>
+
+<body>
+  <form id="info">
+    <label for="" <input type="button">
+      </div>
+      <!-- name -->
+      <div class="form-group">
+        <label for="name">What is your name</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <!-- favorite food-->
+      <!-- favorite city-->
+      <!-- favorite color -->
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+      <!-- birthday -->
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+  </form>
+
+  
+  <!-- dream car -->
+    <div id="car">
+      <div>
+        <select class="form-control" id="make">
+          <option>subaru</option>
+          <option>chevrolet</option>
+        </select>
+      </div>
+      <div id="model">
+        <select class="form-control model hidden" id="subaru">
+          <option>WRX</option>
+          <option>CrossTrek</option>
+          <option>Outback</option>
+          <option>Ascent</option>
+          <option>Hybrid</option>
+          <option>Forester</option>
+        </select>
+        <select class="form-control model hidden" id="chevrolet">
+          <option>abba</option>
+          <option>babba</option>
+          <option>dabba</option>
+          <option>dooba</option>
+          <option>doo</option>
+          <option>boo</option>
+        </select>
+      </div>
+    </div>
+
+  <!-- pet -->
+  <div class="form-group">
+    <label for="pet">Do you have a pet?</label>
+    <select class="form-control" id="pet">
+      <option>Dog</option>
+      <option>Cat</option>
+      <option>Bird</option>
+      <option>Rodent</option>
+      <option>Turtle</option>
+      <option>None</option>
+    </select>
+  </div>
+
+  <input type="submit" value="Send Info">
+</body>
+
+<!--
+name
+favorite food
+favorite music
+favorite city
+favorite color
+birthdate
+car
+pet (option for none)
+
+
+output
+-->
